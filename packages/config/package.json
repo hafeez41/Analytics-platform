@@ -1,0 +1,14 @@
+{
+  "name": "@analytics-platform/config",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "latest"
+  }
+}

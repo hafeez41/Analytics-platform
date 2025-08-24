@@ -1,0 +1,39 @@
+# Dependencies (downloaded packages)
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables (SECRET - never upload these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build files
+.next/
+out/
+
+# TypeScript compiled files
+*.tsbuildinfo
+dist/
+
+# IDE settings (editor preferences)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock

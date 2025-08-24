@@ -1,0 +1,18 @@
+{
+  "name": "analytics-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter config build && pnpm --filter db build && pnpm --filter worker build",
+    "start": "pnpm --filter web start",
+    "worker:dev": "pnpm --filter worker dev",
+    "worker:start": "pnpm --filter worker start",
+    "db:generate": "pnpm --filter db generate",
+    "db:push": "pnpm --filter db push",
+    "db:migrate": "pnpm --filter db migrate"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
