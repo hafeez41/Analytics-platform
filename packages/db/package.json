@@ -11,12 +11,13 @@
     "migrate": "drizzle-kit migrate"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "drizzle-orm": "latest",
     "postgres": "latest"
   },
   "devDependencies": {
+    "@types/pg": "latest",
     "drizzle-kit": "latest",
-    "typescript": "latest",
-    "@types/pg": "latest"
+    "typescript": "latest"
   }
 }

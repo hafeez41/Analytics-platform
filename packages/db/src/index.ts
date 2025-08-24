@@ -1,5 +1,8 @@
-// This file will export all database-related code
-// so both apps can import with: import { User, db } from '@analytics-platform/db'
+// Main exports for the database package
+// Both web app and worker app import from here
 
-export * from './schema';  // Database table definitions
-export * from './client';  // Database connection
+// Export all database tables and relations
+export * from './schema';
+
+// Export database client and types
+export { db, queryClient, type Database } from './client';
