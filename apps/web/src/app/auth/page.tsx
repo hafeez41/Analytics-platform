@@ -1,6 +1,6 @@
 'use client'
 
-import { signIn, getSession } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import { useState } from "react";
 
 export default function SignIn() {
@@ -40,7 +40,7 @@ export default function SignIn() {
         </div>
 
         {/* Email Magic Link Form */}
-        <form className="space-y-6" onSubmit={handleEmailSignIn}>
+        <form className="space-y-6" onSubmit={handleEmailSignIn} suppressHydrationWarning={true}>
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email address
